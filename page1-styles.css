@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header .logo p span {
+    font-weight: bold;
+    color: #e2e2e2;
+}
+
+.search-bar input {
+    padding: 5px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+}
+
+.main-content {
+    display: flex;
+    margin: 20px;
+}
+
+.main-content .image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+}
+
+.about h2 {
+    margin-top: 0;
+}
+
+.news {
+    background-color: #eee;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 0;
+}
